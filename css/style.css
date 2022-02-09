@@ -1,6 +1,8 @@
 @import url(./burger-cross.css);
 @import url(./cheeseburger-square.css);
 @import url(./nuggets-cross.css);
+@import url(./tomato-slice.css);
+@import url(./wrap-menu.css);
 
 * {
     padding: 0;
@@ -11,9 +13,9 @@
 section {
     display: flex;
     justify-content: space-evenly;
-    width: 80vw;
-    height: 50vh;
+    width: 40vw;
+    height: 100vh;
     background-color: antiquewhite;
-
-
+    flex-wrap: wrap;
+    margin: 0 auto;
 }

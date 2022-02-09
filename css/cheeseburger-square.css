@@ -6,6 +6,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 3%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px magenta;
 }
 .cheeseburger div {
     width: 2.5rem;
