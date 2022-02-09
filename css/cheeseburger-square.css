@@ -16,31 +16,38 @@
     transition: 2s;
 }
 .cheeseburger div:nth-child(2) {
-    width: 2.2rem;
+    width: 2.5rem;
     height: 0.2rem;
     background-color: rgb(45, 185, 98);
     border-radius: 2px;
     border: 1px black solid;
     transition: 2s;
-    transform: rotate(-90deg) translate(-0.34rem,1.15rem);
 }
 .cheeseburger div:nth-child(3) {
-    width: 2.2rem;
+    width: 2.5rem;
     height: 0.2rem;
     background-color: rgb(184, 67, 67);
     border-radius: 2px;
     border: 1px black solid;
-    transform: rotate(90deg) translate(-0.34rem,1.15rem);
     transition: 2s;
 }
-
-.cheeseburger:hover > :nth-child(1){
+/* .cheeseburger div:nth-child(3) {
+    display: none;
+} */
+.cheeseburger:hover div:nth-child(3) {
+    display: block;
+    transform: rotate(90deg) translate(-0.34rem,1.15rem);
+    width: 2.2rem;
+    
+}
+/* .cheeseburger:hover > :nth-child(1){
     transform: rotate(-45deg) translate(0,0.6rem);
     transition: 2s;
-}
+} */
 
 .cheeseburger:hover > :nth-child(2){
-    transform: rotate(90deg) translate(-0.34rem,1.15rem);
+    transform: rotate(-90deg) translate(-0.34rem,1.15rem);
+    width: 2.2rem;
 }
 
 .cheeseburger:hover > :nth-child(3) {
