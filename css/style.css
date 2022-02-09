@@ -1,1 +1,18 @@
 @import url(./burger-cross.css);
+@import url(./cheeseburger-square.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 50vh;
+    background-color: antiquewhite;
+
+
+}
