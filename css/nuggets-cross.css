@@ -8,7 +8,7 @@
     justify-content: space-evenly;
 }
 .nuggets div:nth-child(1) {
-    width: 1.25rem;
+    width: 2.5rem;
     height: 0.2rem;
     background-color: black;
     border-radius: 2px;
@@ -16,13 +16,12 @@
     transition: 2s;
 }
 .nuggets div:nth-child(2) {
-    width: 1.25rem;
+    width: 2.5rem;
     height: 0.2rem;
     background-color: rgb(45, 185, 98);
     border-radius: 2px;
     border: 1px black solid;
-    /* transition: 2s; */
-    transform: rotate(-45deg) translate(0.4rem,-0.04rem)
+    transition: 2s;
 }
 .nuggets div:nth-child(3) {
     width: 2.5rem;
@@ -34,22 +33,14 @@
     
 }
 .nuggets div:nth-child(4) {
-    width: 1.25rem;
+    width: 2.5rem;
     height: 0.2rem;
     background-color: rgb(45, 110, 185);
     border-radius: 2px;
     border: 1px black solid;
     transition: 2s;
-    transform: rotate(-45deg) translate(0rem,-1rem);
 }
 
-
-.nuggets:hover div:nth-child(3) {
-    transition: 2s;
-    transform: rotate(45deg) translate(0.25rem,-0.15rem);
-    width: 1.25rem;
-    
-}
 .nuggets:hover > :nth-child(1){
     width: 1.25rem;
     transform: rotate(45deg) translate(-0.2rem,0.8rem);
@@ -60,8 +51,16 @@
     transform: rotate(-45deg) translate(0.4rem,-0.04rem);
     width: 1.25rem;
 }
+.nuggets:hover div:nth-child(3) {
+    transition: 2s;
+    transform: rotate(45deg) translate(0.25rem,-0.15rem);
+    width: 1.25rem;
+    
+}
 
-.nuggets:hover > :nth-child(3) {
-    transform: rotate(45deg) translate(-0.2rem,-0.7rem);
+
+.nuggets:hover > :nth-child(4) {
+    width: 1.25rem;
+    transform: rotate(-45deg) translate(0rem,-1rem);
     transition: 2s;
 }
