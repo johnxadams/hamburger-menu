@@ -1,6 +1,4 @@
 .cheeseburger {
-    width: 3rem;
-    height: 3rem;
     display: flex;
     background-color: rgb(243, 207, 221);
     align-items: center;
@@ -11,24 +9,18 @@
     box-shadow: 3px 5px 10px magenta;
 }
 .cheeseburger div {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: black;
     border-radius: 2px;
     border: 1px black solid;
     transition: 2s;
 }
 .cheeseburger div:nth-child(2) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(45, 185, 98);
     border-radius: 2px;
     border: 1px black solid;
     transition: 2s;
 }
 .cheeseburger div:nth-child(3) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(184, 67, 67);
     border-radius: 2px;
     border: 1px black solid;

@@ -1,6 +1,4 @@
 .tomato-slice {
-    width: 3rem;
-    height: 3rem;
     display: flex;
     background-color: rgb(241, 177, 158);
     align-items: center;
@@ -11,8 +9,6 @@
     box-shadow: 3px 5px 10px rgb(241, 98, 55);
 }
 .tomato-slice div:nth-child(1) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: black;
     border-radius: 2px;
     border: 1px black solid;
@@ -20,24 +16,18 @@
 
 }
 .tomato-slice div:nth-child(2) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(45, 185, 98);
     border-radius: 2px;
     border: 1px black solid;
     transition: 2s;
 }
 .tomato-slice div:nth-child(3) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(67, 170, 184);
     border-radius: 2px;
     border: 1px black solid;
     transition: 2s;
 }
 .tomato-slice div:nth-child(4) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(211, 130, 231);
     border-radius: 2px;
     border: 1px rgb(0, 0, 0) solid;

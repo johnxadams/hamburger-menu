@@ -4,6 +4,13 @@
 @import url(./tomato-slice.css);
 @import url(./wrap-menu.css);
 
+:root {
+    --box-width: 3rem;
+    --box-height: 3rem;
+    --line-width: 2.5rem;
+    --line-height: 0.2rem;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -13,9 +20,27 @@
 section {
     display: flex;
     justify-content: space-evenly;
-    width: 40vw;
+    width: 100vw;
     height: 100vh;
     background-color: antiquewhite;
     flex-wrap: wrap;
     margin: 0 auto;
+}
+/* var box widfth and height to add d here */
+.hamburger,
+.cheeseburger,
+.tomato-slice,
+.nuggets,
+.wrap-menu {
+    width: var(--box-width);
+    height: var(--box-height);
+}
+
+.hamburger div,
+.cheeseburger div,
+.tomato-slice div,
+.nuggets div,
+.wrap-menu div {
+    width: var(--line-width);
+    height: var(--line-height);
 }

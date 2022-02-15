@@ -1,6 +1,4 @@
 .hamburger {
-    width: 3rem;
-    height: 3rem;
     display: flex;
     background-color: rgb(68, 0, 255);
     align-items: center;
@@ -11,8 +9,7 @@
     box-shadow: 3px 3px 10px rgb(68, 0, 255);
 }
 .hamburger div {
-    width: 2.5rem;
-    height: 0.2rem;
+
     background-color: black;
     border-radius: 2px;
     border: 1px black solid;

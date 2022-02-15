@@ -1,6 +1,4 @@
 .wrap-menu {
-    width: 3rem;
-    height: 3rem;
     display: flex;
     background-color: cornflowerblue;
     align-items: center;
@@ -11,8 +9,6 @@
     box-shadow: 3px 3px 10px rgb(58, 20, 228);
 }
 .wrap-menu div:nth-child(1) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: black;
     border-radius: 2px;
     border: 1px black solid;
@@ -20,24 +16,18 @@
 
 }
 .wrap-menu div:nth-child(2) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(45, 185, 98);
     border-radius: 2px;
     border: 1px black solid;
     /* transition: 2s; */
 }
 .wrap-menu div:nth-child(3) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(67, 170, 184);
     border-radius: 2px;
     border: 1px black solid;
     /* transition: 2s; */
 }
 .wrap-menu div:nth-child(4) {
-    width: 2.5rem;
-    height: 0.2rem;
     background-color: rgb(211, 130, 231);
     border-radius: 2px;
     border: 1px rgb(0, 0, 0) solid;
